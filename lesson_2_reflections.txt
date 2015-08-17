@@ -1,0 +1,10 @@
+1)
+Topic:  What happens when you initialize a repository? Why do you need to do it?
+Duh 0:  A .git directory was created.  I think I need it to control my changes through Git version-control repository.
+
+2)
+Topic: How is the staging area different from the working directory and the repository? What value do you think it offers?
+Duh 0:  It is different from the working directory because I cannot directly write to it, instead "git add <file name>"
+auto add it to it.  It is different from the repository because it holds changes made to files where the repository 
+has previously committed versions without the changes yet.
+
