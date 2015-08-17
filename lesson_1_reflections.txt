@@ -1,0 +1,56 @@
+Reflections 1 from Lesson 1
+
+1)
+Topic:  How using a tool like diff helps writing a good code.
+Task:  I compared a long codes in game_old.js and game_new.js using the FC Windows command to
+ find a tiny one typo that broke the game code.
+Duh 0: This tool saved time because it picked up only the differences and displayed them for me to quickly go through.
+
+2)
+Topic:  How do having an easy access to the history of your changes improve your code?
+
+Duh 0:  I think if I am working on a long and complex code that I 
+debug and fix for different bugs in different parts of the code,
+I might accidentally touch part of codes that were working but would not pay attention
+until much later when I find out something is broken.
+
+If I had checked in an ealier vesion of the code, and if the entire history is available,
+I can compare to the earlier vesions and easily fix the mistake made later.
+
+3)
+Topic:  What do you think are the pros and cons of manually choosing when to create a commit,
+ like you do in Git, vs having versions automatically saved, like Google Docs does?
+ 
+Duh 0:  Pros - I can make a judgement call when I completed a unit of task, each version would
+be logical and easy to understand later or by other team members.
+Cons - Since it's a manual process, if I forget or put the commit off and forget to come back to it,
+the next version might get too big or I could lose my change by accident.
+
+4)
+Topic: Why do you think some version control systems, like Git, allow saving multiple files in one commit,
+ while others, like Google Docs, treat each file separately?
+ 
+Duh 0: I think they do to ensure codes that are made up of multiple files are always kept together to easily
+track all the files that are required to run the application.  Although there are times not all the files contain
+changes, each commit would be always a complete logical unit that works together.
+
+5)
+Topic: How can you use the commands git log and git diff to view the history of files?
+Duh 0: git log displays a short summary of each commit of ID, time/date, description and author in most recent first order.
+git diff takes 2 commit IDs you pick from the git log and displays differences.  
+When Git properties of the color.ui was set to auto, it's even more easier to quickly find out which line was deleted (in red) and 
+inserted (in green) from the result.
+
+6)
+Topic: How might using version control make you more confident to make changes that could break something?
+Duh 0: Since you know there is a last working version of the codes in the version control, and there are commands 
+to go back to that point of changes, we can focus on tasks at hand without worrying too much about
+accidentally breaking the code.
+
+7)
+Topic:  Now that you have your workspace set up, what do you want to try using Git for?
+Duh 0:  When I start another course on the Udacity, I would use the Git to save and share codes assignment
+with the instructors primarily.  Later on when I get more involved, I may use it to access the Git Hub repository
+for learning and sharing.
+
+
