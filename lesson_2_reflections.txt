@@ -8,3 +8,12 @@ Duh 0:  It is different from the working directory because I cannot directly wri
 auto add it to it.  It is different from the repository because it holds changes made to files where the repository 
 has previously committed versions without the changes yet.
 
+3)
+Topic: How can you use the staging area to make sure you have one commit per logical change?
+Duh 0:  Keep adding all files that belong to one logical change to the staging area and commit them with one single commit unit.
+
+4)
+Topic:  What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Duh 0: Not sure yet, but as stated in the lesson, having a separately labeled branch where you can keep all files that you experiment
+with different behaviors until you are ready to merge with the master branch would be efficient.
+
