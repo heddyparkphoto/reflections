@@ -17,3 +17,7 @@ Topic:  What are some situations when branches would be helpful in keeping your 
 Duh 0: Not sure yet, but as stated in the lesson, having a separately labeled branch where you can keep all files that you experiment
 with different behaviors until you are ready to merge with the master branch would be efficient.
 
+5)
+Topic: How do the diagrams help you visualize the branch structure?
+Duh 0:  It's a good reference alongside the output of the git log.  You can also track down which commit might be 'unreacheable' due to how git log works.
+
