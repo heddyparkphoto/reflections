@@ -1,3 +1,5 @@
+Reflectioins 2
+
 1)
 Topic:  What happens when you initialize a repository? Why do you need to do it?
 Duh 0:  A .git directory was created.  I think I need it to control my changes through Git version-control repository.
@@ -20,4 +22,11 @@ with different behaviors until you are ready to merge with the master branch wou
 5)
 Topic: How do the diagrams help you visualize the branch structure?
 Duh 0:  It's a good reference alongside the output of the git log.  You can also track down which commit might be 'unreacheable' due to how git log works.
+
+6)
+Topic: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Duh 0:  Changes in both branches were brought in and worked successfully. Also both files became the parents of the merged version,
+and the history of both branches became the history of the new merged version.  The diagram represents 2 branches before the last shared 
+parent and the merged version as one branch, but the rest as separate branches because they can ba tracked back through the merged
+version.
 
