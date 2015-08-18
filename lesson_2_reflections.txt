@@ -30,3 +30,10 @@ and the history of both branches became the history of the new merged version.  
 parent and the merged version as one branch, but the rest as separate branches because they can ba tracked back through the merged
 version.
 
+7)
+Topic: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Duh 0:  The pros are that when there are no conflicts, automatic merge is efficient and saves time.  However, automatic merging might have
+unexpected consequences, that's the cons.  The pros of manual merges give a chance for the programmers to review conflicts so to prevent
+unintended changes going further.  The cons of the manual merge can be time-consuming and also human-error-prone if not carefully done. 
+For either methods, it's always good to test the merged code.
+
