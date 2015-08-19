@@ -1,0 +1,6 @@
+Reflections 3
+1)
+Topic:  When would you want to use a remote repository rather than keeping all your work local?
+Duh 0:  Lesson says that if I am working from another computer that does not have the local repository set up, 
+I may make an update directly on a remote.
+
