@@ -4,3 +4,17 @@ Topic:  When would you want to use a remote repository rather than keeping all y
 Duh 0:  Lesson says that if I am working from another computer that does not have the local repository set up, 
 I may make an update directly on a remote.
 
+2)
+Topic:  Why might you want to always pull changes manually rather than having Git automatically 
+stay up-to-date with your remote repository?
+Duh 0:  If you work with other people on a same file or set of files that are dependent on them,
+automatic update might overwrite my changes before I am done.  Also, if I have checked out previous
+commits, automatic update would break the commits, I'm not sure, but I will probably learn more about this type of scenarios.
+
+3)
+Topic:  Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Duh 0: Forks are GitHub tool that makes a clone of another repository on the GitHub server.
+Clones are a copy of repository that can exist locally or one on GitHub and one on local machine.
+Branches are created from the master which can have changes in itself without affecting the master branch for separatly 
+experimenting bigger changes and new features.  You have to switch to a particular branch on local to work on it by "git checkout
+ <<branch name here...>>.  In order to add the changes in branch, you merge into master, and resolve all conflicts.
