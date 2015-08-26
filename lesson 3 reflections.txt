@@ -18,3 +18,17 @@ Clones are a copy of repository that can exist locally or one on GitHub and one 
 Branches are created from the master which can have changes in itself without affecting the master branch for separatly 
 experimenting bigger changes and new features.  You have to switch to a particular branch on local to work on it by "git checkout
  <<branch name here...>>.  In order to add the changes in branch, you merge into master, and resolve all conflicts.
+
+4)
+Topic:  What is the benefit of having a copy of the last known state of the remote stored locally?
+Duh 0: Not sure if I understand such situation very well, but one case that I've seen in the last exercise where
+collaborator pushes a change and that push does so called 'Fast forward merge', my change's ancestor's history 
+may move ahead of my local.  By storing remote locally, I will always be able to keep the original history until
+I know it's okay to merge.
+
+5)
+Topic:  How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Duh 0: We would both checkout the 'base' code and exchange modified versions of the code via email and monitor sharing tool 
+to share and agree upon the changes. Then, one collaborator will check in the code.
+It's easier old fashioned way of collaboration.  Hard part is that someone has to track the history of the changes, and
+sometimes collaborators will have to meet at the same time although not always.
